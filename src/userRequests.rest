@@ -1,0 +1,43 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "banseka",
+  "email": "banseka@2481112mqil.com",
+  "password": "azserdtfgy"
+}
+
+###
+
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+  "email": "banseka@8881112mqil.com",
+  "password": "azserdtfgy"
+}
+
+###
+GET http://localhost:3000/users/me
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDE3MzdlZGRhMmFiNjIyMDQ0Yjc4ZTAiLCJpYXQiOjE2MTIxMzUzNzN9.ot4coXnCr1bUwRHda7PsToKAzTaqPSgC3zyKPz8KTzQ
+###
+GET http://localhost:3000/users/6015af7d32a468231029e79c
+Content-Type: application/json
+###
+PATCH  http://localhost:3000/users/60173cf7e54a4c209459f4d1
+Content-Type: application/json
+
+{
+  "name": "Wirngo Banseka Jude       ",
+  "email": "banseka@sdfgmail.com",
+  "password": "qwsxdcfvgbhnj,k;l"
+}
+
+###
+DELETE   http://localhost:3000/users/601737edda2ab622044b78e0
+Content-Type: application/json
+
+
+###
+
